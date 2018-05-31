@@ -1,0 +1,131 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Full Stack Training</title>
+<!--  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+ <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top topbar">
+        <div class="container">
+            <div class="navbar-header topheader">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"><img src="images/tes_logo_hz_bglt.svg" alt="FullStack Training"></a>
+            </div>
+             <div style="margin-top:20px;" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a class="links" href="index.html">Home</a></li>
+                    <li><a class="links" href="about.html">About</a></li>
+                    <li><a class="links" href="contact.html">Contact</a></li>
+           
+                
+            </div>
+        </div>
+    </nav>
+
+<hr/>
+<div class="container starter">
+    <hr />
+    <div style="background-color: brown; height: 10px;"></div>
+
+        
+        <form>
+            <div class="container">
+                <heading>
+                    <p>Please fill out this form, and a representative will contact you with class information</p>
+                </heading>
+                  <div class="row">
+            <div class="col-md-2">
+                <label for="class">Class</label>
+            </div>
+               
+            <div class="col-md-6">
+                <select name="class">
+                <option value="mern">MERN Stack</option>
+                  <option value="netcore">.NET Core Stack</option>         
+                </select>
+            </div>
+                </div>
+
+
+                <div class="row">
+            <div class="col-md-2">
+                <label for="firstname">First Name</label>
+            </div>
+               
+            <div class="col-md-6">
+                <input type="text" name="firstname" id="firstname" value="">
+            </div>
+                </div>
+
+                <div class="row">
+            <div class="col-md-2">
+                 <label for="lastname">Last Name</label>
+            </div>
+
+            <div class="col-md-6">
+                 <input type="text" name="lastname" id="lastname" value="">
+            </div>
+                </div>
+
+            <div class="row">
+            <div class="col-md-2">
+                <label for="email">Email</label>
+            </div>
+
+            <div class="col-md-6">
+                <input type="text" name="email" id="email" value="">
+            </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-offset-4">
+             <input style="font-size: 26px;" class="btn btn-success" type="submit" name="submit" id="submit">
+                 </div>
+            </div>
+
+        </form>
+
+
+    <hr />
+    <div style="background-color: brown; height: 10px;"></div>
+</div>
+  <hr />
+        <footer>
+
+            <br/>
+            <p>&copy; 2018 - FullStack Training <img src="images/facebook.png" /> <img src="images/twitter.png" /></p>
+        </footer>
+
+         <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="js/site.js" asp-append-version="true"></script>
+
+</body>
+
+</html>

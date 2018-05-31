@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Full Stack Training</title>
+<!--  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+ <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top topbar">
+        <div class="container">
+            <div class="navbar-header topheader">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"><img src="images/tes_logo_hz_bglt.svg" alt="FullStack Training"></a>
+            </div>
+            <div style="margin-top:20px;" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a class="links" href="index.html">Home</a></li>
+                    <li><a class="links" href="about.html">About</a></li>
+                    <li><a class="links" href="contact.html">Contact</a></li>
+           
+                
+            </div>
+        </div>
+    </nav>
+
+<hr/>
+<div class="container">
+
+    <hr />
+
+    <div class="col-md-12">
+        <div class="col-md-3">
+          <img  class="img-fluid img-responsive" src="images/camp.png" />
+        </div>
+
+        <div class="col-md-offset-1 col-md-6">
+            <p class="starter">
+                At FullStack Training we believe we can train future developers and provide them
+                with the skills needed to get ahead in their careers. Our instructors have been working
+                for the best Employers and have over 15+ years of experience developing software.
+
+                Be a part of the full stack journey and learn about the latest and greatest technologies
+                we offer. Contact us today and get ahead.
+
+            </p>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="col-md-6 lefttrack">
+            <div style="background-color: cornflowerblue; height: 20px;"></div>
+            <h1 class="mern">MERN Track</h1>
+            <hr />
+            <img class="img-fluid img-responsive" src="images/Mern.jpg" />
+            <hr/>
+            <p class="substarter">
+                Our 12 week course is perfect for mastering web development using the MERN Stack.
+                MERN has become an industry standard when it comes to developing Enterprise level applications.
+                This program is perfect for beginners, our curriculum touches on all the aspects of
+                Full stack development
+                <ul class="syllabus">
+                    <li>Week 1 : HTML & CSS</li>
+                    <li>Week 2 : Bootstrap Intro</li>
+                    <li>Week 3 : Javascript</li>
+                    <li>Week 4 : NodeJS Intro</li>
+                    <li>Week 5 : Express</li>
+                    <li>Week 6 : MongoDB</li>
+                    <li>Week 7 : MySQL</li>
+                    <li>Week 8 : ReactJS Intro</li>
+                    <li>Week 9 : ReactJS Advanced</li>
+                    <li>Week 10: NodeJS Advanced</li>
+                    <li>Week 11: Testing and Deployment</li>
+                    <li>Week 12: Fullstack Application using MERN</li>
+                </ul>
+                  <div><h3>Classes begin in September 2018</h3></div>
+                <div><h3>Price : $4500</h3></div>
+            </p>
+            <button  onclick="window.location='SubmitForm.html';"  value="SUBMIT" class="btn btn-success developer">BECOME A DEVELOPER</button>
+                <hr/>
+        </div>
+
+        <div class="col-md-6 lefttrack">
+            <div style="background-color: green; height: 20px;"></div>
+            <h1 class="net">ASP .NET Core Track</h1>
+            <hr />
+            <img  class="img-fluid"  src="images/NetStack.png" />
+            <hr/>
+            <p class="substarter">
+                Our 12 week course is perfect for mastering web development using the ASP .NET Core Stack.
+                .NET Core is Microsoft latest iteration in developing Enterprise level applications.
+                This program is perfect for beginners, our curriculum touches on all the aspects of
+                Full stack development
+                <ul  class="syllabus">
+                    <li>Week 1 : HTML & CSS</li>
+                    <li>Week 2 : Bootstrap Intro</li>
+                    <li>Week 3 : C# Intro</li>
+                    <li>Week 4 : C# Advanced</li>
+                    <li>Week 5 : MVC Framework</li>
+                    <li>Week 6 : MS SQL</li>
+                    <li>Week 7 : Entity Framework</li>
+                    <li>Week 8 : Angular</li>
+                    <li>Week 9 : WebAPI Intro</li>
+                    <li>Week 10: WebAPI Advanced</li>
+                    <li>Week 11: Testing and Deployment </li>
+                    <li>Week 12: Fullstack Application using ASP .NET Core</li>
+                </ul>
+                <div><h3>Classes begin in November 2018</h3></div>
+                <div><h3>Price : $4500</h3></div>
+
+            </p>
+            <button   onclick="window.location='SubmitForm.html';"  class="btn btn-success developer">BECOME A DEVELOPER</button>
+            <hr/>
+        </div>
+
+    </div>
+  
+
+</div>
+  <hr />
+        <footer>
+
+            <br/>
+            <p>&copy; 2018 - FullStack Training <img src="images/facebook.png" /> <img src="images/twitter.png" /></p>
+        </footer>
+
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="js/site.min.js" asp-append-version="true"></script>
+
+</body>
+
+</html>
